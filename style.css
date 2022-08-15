@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+body{
+    background-color: #19A1AD;
+    min-height: 100vh;
+    background-image: url("./images/bg-pattern-top.svg") , url("./images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+/* 
+
+    font-family: 'Kumbh Sans';
+    font-weight: 400;
+
+    font-family: 'Kumbh Sans';
+    font-weight: 700;
+*/
+
+.container{
+    transform: translateY(50%);
+    margin: auto;
+    max-width: 350px;
+    width: 100%;
+    
+    height: auto;
+    background-color: #fff;
+    border-radius: 15px;
+    font-weight: 400;
+}
+.cover_picture{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+    width: 100%;
+}
+.profile_picture{
+    border: 5px solid white;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    transform: translateY(-50%);
+    max-width: 29%;
+    width: 100%;
+}
+.profile_info{
+    text-align: center;
+    transform: translateY(-60%);
+}
+.name{
+    display: inline-block;
+    font-family: 'Kumbh Sans';
+    font-weight: 700;
+    font-size: 150%;
+    padding-right: 3%;
+}
+.age{
+    display: inline-block;
+    font-family: 'Kumbh Sans';
+    font-weight: 400;
+    font-size: 150%;
+    color: gray;
+}
+.city{
+    transform: translateY(60%);
+    font-family: 'Kumbh Sans';
+    font-weight: 400;
+    font-size: large;
+    color: gray;
+}
+.user_data{
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.followers{
+    display: inline-block;
+    position: relative;
+    left: 8%;
+    font-family: 'Kumbh Sans';
+    font-weight: 400;
+    font-size: medium;
+    color: gray;
+}
+.follower_count{
+    margin-bottom: 10%;
+    text-align: center;
+    font-family: 'Kumbh Sans';
+    font-weight: 700;
+    font-size: large;
+    color: black;
+}
+.likes{
+    display: inline-block;
+    position: absolute;
+    left: 45%;
+    font-family: 'Kumbh Sans';
+    font-weight: 400;
+    font-size: medium;
+    color: gray;
+    text-align: center;
+}
+.like_count{
+    margin-bottom: 17%;
+    text-align: center;
+    font-family: 'Kumbh Sans';
+    font-weight: 700;
+    font-size: large;
+    color: black;
+}
+.photos{
+    display: inline-block;
+    position: absolute;
+    right: 8%;
+    font-family: 'Kumbh Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: gray;
+}
+.photo_count{
+    margin-bottom: 10%;
+    text-align: center;
+    font-family: 'Kumbh Sans';
+    font-weight: 700;
+    font-size: large;
+    color: black;
+}
